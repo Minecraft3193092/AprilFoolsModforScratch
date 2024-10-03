@@ -1377,6 +1377,39 @@ if (IsLocal || IsLiveTests) {
             description: 'In development. Currently buggy and missing features.',
             featured: true
         },
+                name: (
+            <FormattedMessage
+                defaultMessage="Music"
+                description="Name for the 'Music' extension"
+                id="gui.extension.music.name"
+            />
+        ),
+    {
+        name: 'Goodbye World',
+        extensionId: 'https://minecraft3193092.github.io/AprilFoolsModforScratch-ExtensionsGallery/static/extensions/joke/goodbyeworld.js',
+        tags: ['aprilfools'],            
+        description: 'Goodbye World.',
+        featured: true,
+        extDeveloper: 'Example.com', 'Example.net', 'Example.org', 'Example.edu'
+    },
+    {
+        name: 'New Joke Keys',
+        extensionId: 'https://minecraft3193092.github.io/AprilFoolsModforScratch-ExtensionsGallery/static/extensions/joke/newjokekeys.js',
+        tags: ['aprilfools'],
+        collaborator: 'Jokernational Bureau of Keyboards Keys',         
+        description: 'New Keys from April Fools.',        
+        featured: true,
+        extDeveloper: 'joke',
+    }
+    {
+        name: 'Joke Times',
+        extensionId: 'https://minecraft3193092.github.io/AprilFoolsModforScratch-ExtensionsGallery/static/extensions/joke/joketimes.js',
+        tags: ['aprilfools'],
+        collaborator: 'International Bureau of Weights and Measures',   'Jokernational Bureau of Weights and Measures',        
+        description: 'New wait blocks with few of International System of Units and few of Jokernational System of Units ( by Jokernational Bureau of Weights and Measures.',
+        featured: true,
+        extDeveloper: 'joke',
+    },        ,        
         {
             name: 'Virtual Reality',
             extensionId: 'jgVr',
