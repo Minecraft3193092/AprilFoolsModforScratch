@@ -36,7 +36,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: 'https://penguinmod.com/project'
+      url: 'https://minecraft3193092.github.io/AprilFoolsModforScratch/'
     runs-on: ubuntu-latest
     needs: build
     steps:
