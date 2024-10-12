@@ -1409,7 +1409,7 @@ if (IsLocal || IsLiveTests) {
         description: 'New wait blocks with few of International System of Units and few of Jokernational System of Units ( by Jokernational Bureau of Weights and Measures.',
         featured: true,
         extDeveloper: 'joke',
-    },        ,        
+    },        
         {
             name: 'Virtual Reality',
             extensionId: 'jgVr',
